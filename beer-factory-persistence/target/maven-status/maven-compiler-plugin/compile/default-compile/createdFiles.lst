@@ -1,0 +1,15 @@
+novaservices\beer_factory\dao\Impl\MaterialStatusDaoImpl.class
+novaservices\beer_factory\dao\MaterialStatusDao.class
+novaservices\beer_factory\entities\RecipeEntity.class
+novaservices\beer_factory\dao\Impl\RecipeDaoImpl.class
+novaservices\beer_factory\entities\MaterialStatusEntity.class
+novaservices\beer_factory\entities\BaseEntity.class
+novaservices\beer_factory\dao\Impl\MaterialDaoImpl.class
+novaservices\beer_factory\dao\Impl\BrewDaoImpl.class
+novaservices\beer_factory\entities\MaterialEntity.class
+novaservices\beer_factory\entities\BrewEntity.class
+novaservices\beer_factory\dao\MaterialDao.class
+novaservices\beer_factory\dao\BrewDao.class
+novaservices\beer_factory\dao\GenericDao.class
+novaservices\beer_factory\dao\Impl\GenericDaoImpl.class
+novaservices\beer_factory\dao\RecipeDao.class
