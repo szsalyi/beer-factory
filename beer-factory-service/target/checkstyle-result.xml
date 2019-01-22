@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.18">
+<file name="D:\IDEA_Projects\beerfactory\beer-factory-service\src\main\java\novaservices\beer_factory\models\impl\BrewServiceImpl.java">
+<error line="1" column="9" severity="warning" message="Name &apos;novaservices.beer_factory.models.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]{1,})*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
 <file name="D:\IDEA_Projects\beerfactory\beer-factory-service\src\main\java\novaservices\beer_factory\models\impl\GenericServiceImpl.java">
+<error line="1" column="9" severity="warning" message="Name &apos;novaservices.beer_factory.models.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]{1,})*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="D:\IDEA_Projects\beerfactory\beer-factory-service\src\main\java\novaservices\beer_factory\models\impl\MaterialServiceImpl.java">
+<error line="1" column="9" severity="warning" message="Name &apos;novaservices.beer_factory.models.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]{1,})*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="D:\IDEA_Projects\beerfactory\beer-factory-service\src\main\java\novaservices\beer_factory\models\impl\MaterialStatusServiceImpl.java">
+<error line="1" column="9" severity="warning" message="Name &apos;novaservices.beer_factory.models.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]{1,})*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="D:\IDEA_Projects\beerfactory\beer-factory-service\src\main\java\novaservices\beer_factory\models\impl\RecipeServiceImpl.java">
 <error line="1" column="9" severity="warning" message="Name &apos;novaservices.beer_factory.models.impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]{1,})*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 </file>
 <file name="D:\IDEA_Projects\beerfactory\beer-factory-service\src\main\java\novaservices\beer_factory\models\mappers\BrewMapper.java">

@@ -1,4 +1,6 @@
 package novaservices.beer_factory.dao;
 
-public interface  MaterialStatusDao {
+import novaservices.beer_factory.entities.MaterialStatusEntity;
+
+public interface MaterialStatusDao extends GenericDao<MaterialStatusEntity> {
 }

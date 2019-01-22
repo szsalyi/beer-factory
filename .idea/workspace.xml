@@ -4,7 +4,55 @@
     <bookmark url="file://$PROJECT_DIR$/pom.xml" line="18" mnemonic="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8112fd46-4cc0-4d82-b9f5-60349fe4d20d" name="Default" comment="" />
+    <list default="true" id="8112fd46-4cc0-4d82-b9f5-60349fe4d20d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/BrewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/MaterialServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/MaterialStatusServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/RecipeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer-factory-service/target/classes/novaservices/beer_factory/models/impl/BrewServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer-factory-service/target/classes/novaservices/beer_factory/models/impl/MaterialServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer-factory-service/target/classes/novaservices/beer_factory/models/impl/MaterialStatusServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer-factory-service/target/classes/novaservices/beer_factory/models/impl/RecipeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-client-api/src/main/java/novaservices/beer_factory/service/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-client-api/src/main/java/novaservices/beer_factory/service/GenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-client-api/target/beer-factory-client-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-client-api/target/beer-factory-client-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-client-api/target/classes/novaservices/beer_factory/service/GenericService.class" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-client-api/target/classes/novaservices/beer_factory/service/GenericService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-client-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-client-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-ear/target/beer-factory-ear-1.0-SNAPSHOT.ear" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-ear/target/beer-factory-ear-1.0-SNAPSHOT.ear" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-ear/target/beer-factory-ear-1.0-SNAPSHOT/lib/novaservices-beer-factory-client-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-ear/target/beer-factory-ear-1.0-SNAPSHOT/lib/novaservices-beer-factory-client-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-ear/target/beer-factory-ear-1.0-SNAPSHOT/lib/novaservices-beer-factory-persistence-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-ear/target/beer-factory-ear-1.0-SNAPSHOT/lib/novaservices-beer-factory-persistence-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-ear/target/beer-factory-ear-1.0-SNAPSHOT/novaservices-beer-factory-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-ear/target/beer-factory-ear-1.0-SNAPSHOT/novaservices-beer-factory-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-ear/target/beer-factory-ear-1.0-SNAPSHOT/novaservices-beer-factory-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-ear/target/beer-factory-ear-1.0-SNAPSHOT/novaservices-beer-factory-web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/BrewDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/BrewDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/MaterialDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/MaterialDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/MaterialStatusDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/MaterialStatusDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/RecipeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/RecipeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-persistence/target/beer-factory-persistence-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-persistence/target/beer-factory-persistence-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-persistence/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-persistence/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-persistence/target/classes/novaservices/beer_factory/dao/BrewDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-persistence/target/classes/novaservices/beer_factory/dao/BrewDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-persistence/target/classes/novaservices/beer_factory/dao/MaterialDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-persistence/target/classes/novaservices/beer_factory/dao/MaterialDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-persistence/target/classes/novaservices/beer_factory/dao/MaterialStatusDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-persistence/target/classes/novaservices/beer_factory/dao/MaterialStatusDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-persistence/target/classes/novaservices/beer_factory/dao/RecipeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-persistence/target/classes/novaservices/beer_factory/dao/RecipeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-persistence/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-persistence/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/GenericServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/GenericServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-service/target/beer-factory-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-service/target/beer-factory-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-service/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-service/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-service/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-service/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-service/target/classes/novaservices/beer_factory/models/impl/GenericServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-service/target/classes/novaservices/beer_factory/models/impl/GenericServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-service/target/classes/novaservices/beer_factory/models/mappers/BrewMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-service/target/classes/novaservices/beer_factory/models/mappers/BrewMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-service/target/classes/novaservices/beer_factory/models/mappers/BrewMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-service/target/classes/novaservices/beer_factory/models/mappers/BrewMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-service/target/generated-sources/annotations/novaservices/beer_factory/models/mappers/BrewMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-service/target/generated-sources/annotations/novaservices/beer_factory/models/mappers/BrewMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-service/target/generated-sources/annotations/novaservices/beer_factory/models/mappers/MaterialMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-service/target/generated-sources/annotations/novaservices/beer_factory/models/mappers/MaterialMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-service/target/generated-sources/annotations/novaservices/beer_factory/models/mappers/MaterialStatusMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-service/target/generated-sources/annotations/novaservices/beer_factory/models/mappers/MaterialStatusMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-service/target/generated-sources/annotations/novaservices/beer_factory/models/mappers/RecipeMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-service/target/generated-sources/annotations/novaservices/beer_factory/models/mappers/RecipeMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-web/target/beer-factory-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-web/target/beer-factory-web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-web/target/beer-factory-web-1.0-SNAPSHOT/WEB-INF/lib/beer-factory-client-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-web/target/beer-factory-web-1.0-SNAPSHOT/WEB-INF/lib/beer-factory-client-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-web/target/beer-factory-web-1.0-SNAPSHOT/WEB-INF/lib/beer-factory-persistence-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-web/target/beer-factory-web-1.0-SNAPSHOT/WEB-INF/lib/beer-factory-persistence-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-web/target/beer-factory-web-1.0-SNAPSHOT/WEB-INF/lib/beer-factory-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-web/target/beer-factory-web-1.0-SNAPSHOT/WEB-INF/lib/beer-factory-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-factory-web/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/beer-factory-web/target/checkstyle-cachefile" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/beer-factory-service/target/" />
@@ -47,40 +95,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GenericService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beer-factory-client-api/src/main/java/novaservices/beer_factory/service/GenericService.java">
+      <file leaf-file-name="BrewServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/BrewServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="170">
+              <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GenericServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/GenericServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecipeMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/RecipeMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="58">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,68 +119,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrewDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/BrewDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beer-factory-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaterialMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/MaterialMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaterialStatusMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/MaterialStatusMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrewMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/BrewMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/GenericMapper.java">
+      <file leaf-file-name="MaterialVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beer-factory-client-api/src/main/java/novaservices/beer_factory/vos/MaterialVO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaterialStatusServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/MaterialStatusServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecipeServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/RecipeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="106" selection-start-line="10" selection-start-column="106" selection-end-line="10" selection-end-column="106" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkstyle-checker.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beer-factory-service/target/checkstyle-checker.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="MaterialServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/MaterialServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrewDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/BrewDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkstyle-result.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beer-factory-service/target/checkstyle-result.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -161,8 +203,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -173,14 +215,12 @@
       <find>error</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/beer-factory-vos/src/main/java/novaservices/beer_factory/vos/MaterialRecipeVO.java" />
-        <option value="$PROJECT_DIR$/beer-factory-vos/src/main/java/novaservices/beer_factory/vos/RecipeVO.java" />
-        <option value="$PROJECT_DIR$/beer-factory-vos/pom.xml" />
-        <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/requests/DeleteRecipeRequest.java" />
-        <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/requests/GetRecipeRequest.java" />
         <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/requests/PlanBrewRequest.java" />
         <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/requests/SetBrewStatusRequest.java" />
         <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/requests/StoreMaterialRequest.java" />
@@ -201,10 +241,6 @@
         <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/entities/MaterialEntity.java" />
         <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/entities/RecipeEntity.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/BrewDao.java" />
-        <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/MaterialDao.java" />
-        <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/MaterialStatusDao.java" />
-        <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/RecipeDao.java" />
         <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/AbstractDao.java" />
         <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/GenericDaoImpl.java" />
         <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/GenericDaoImpl.java" />
@@ -218,15 +254,24 @@
         <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/MaterialDaoImpl.java" />
         <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/MaterialStatusDaoImpl.java" />
         <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/RecipeDaoImpl.java" />
-        <option value="$PROJECT_DIR$/beer-factory-client-api/src/main/java/novaservices/beer_factory/service/GenericService.java" />
         <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/Impl/GenericServiceImpl.java" />
-        <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/BrewMapper.java" />
         <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/GenericMapper.java" />
         <option value="$PROJECT_DIR$/beer-factory-service/pom.xml" />
         <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/MaterialMapper.java" />
         <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/MaterialStatusMapper.java" />
         <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/RecipeMapper.java" />
+        <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/BrewMapper.java" />
+        <option value="$PROJECT_DIR$/beer-factory-client-api/src/main/java/novaservices/beer_factory/service/GenericService.java" />
+        <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/MaterialStatusDao.java" />
+        <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/RecipeDao.java" />
+        <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/MaterialDao.java" />
+        <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/RecipeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/BrewDao.java" />
+        <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/BrewServiceImpl.java" />
+        <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/MaterialServiceImpl.java" />
         <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/GenericServiceImpl.java" />
+        <option value="$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/MaterialStatusServiceImpl.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -262,12 +307,12 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -327,88 +372,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="beer_factory" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beerfactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beerfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="beer-factory-client-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beer_factory" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beerfactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beerfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="beer-factory-ear" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beerfactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beerfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="beer-factory-persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beerfactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beerfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="beer-factory-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beerfactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beerfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="beer-factory-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beerfactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beerfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="beer-factory-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beerfactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beerfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="beer-factory-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beer_factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beerfactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beerfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="beer-factory-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beer_factory" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beerfactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beerfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="beer-factory-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beer_factory" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beerfactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beerfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="beer-factory-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beer_factory" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="vos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beerfactory" type="b2602c69:ProjectViewProjectNode" />
@@ -563,15 +527,16 @@
       <workItem from="1547828577838" duration="1017000" />
       <workItem from="1548057653256" duration="2163000" />
       <workItem from="1548072054795" duration="16160000" />
-      <workItem from="1548155712433" duration="2210000" />
+      <workItem from="1548155712433" duration="6365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42224000" />
+    <option name="totallyTimeSpent" value="46379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -593,10 +558,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.46503884" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37370753" />
       <window_info id="Persistence" order="3" sideWeight="0.30705395" side_tool="true" weight="0.23027718" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6929461" visible="true" weight="0.23027718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6929461" visible="true" weight="0.5991678" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Learn" order="2" sideWeight="0.49635038" weight="0.3295302" />
@@ -623,60 +588,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/beer-factory-service/beerfactoryservice.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beerfactory.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-client-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/requests/CreateRecipeRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/requests/SetBrewStatusRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/responses/SetBrewStatusResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/responses/StoreMaterialResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/responses/PlanBrewResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-ear/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/AllArgsConstructor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -735,24 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/RecipeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/target/checkstyle-result.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -819,71 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/MaterialStatusDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/BrewDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/GenericDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/MaterialDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/MaterialDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/MaterialStatusDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="108" selection-start-line="8" selection-start-column="108" selection-end-line="8" selection-end-column="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/RecipeDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/GenericDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -915,16 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/BrewMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/beer-factory-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -952,6 +778,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-service/target/generated-sources/annotations/novaservices/beer_factory/models/mappers/BrewMapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-service/target/generated-sources/annotations/novaservices/beer_factory/models/mappers/MaterialMapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/BrewMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/RecipeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -964,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/mappers/GenericMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -976,38 +820,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/BrewDaoImpl.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+        <state relative-caret-position="32">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/GenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/BrewDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/MaterialStatusDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/RecipeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/GenericDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/MaterialDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/MaterialDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/Impl/MaterialStatusDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="108" selection-start-line="8" selection-start-column="108" selection-end-line="8" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/target/checkstyle-result.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-persistence/src/main/java/novaservices/beer_factory/dao/BrewDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/BrewServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/RecipeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="106" selection-start-line="10" selection-start-column="106" selection-end-line="10" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-service/target/checkstyle-checker.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/beer-factory-service/target/checkstyle-result.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="680">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/MaterialStatusServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/MaterialServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/beer-factory-service/src/main/java/novaservices/beer_factory/models/impl/GenericServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="58">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-factory-client-api/src/main/java/novaservices/beer_factory/vos/MaterialVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>

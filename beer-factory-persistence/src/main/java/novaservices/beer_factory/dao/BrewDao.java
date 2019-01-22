@@ -1,4 +1,6 @@
 package novaservices.beer_factory.dao;
 
-public interface BrewDao {
+import novaservices.beer_factory.entities.BrewEntity;
+
+public interface BrewDao extends GenericDao<BrewEntity> {
 }

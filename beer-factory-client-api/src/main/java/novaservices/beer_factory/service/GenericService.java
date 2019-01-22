@@ -2,14 +2,14 @@ package novaservices.beer_factory.service;
 
 import java.util.List;
 
-public interface GenericService<T> {
-    T create(T t);
+public interface GenericService<V> {
+    V create(V v);
 
-    T read(T t);
+    V read(V v);
 
-    List<T> readAll(T t);
+    List<V> readAll(V v);
 
-    T update(T t);
+    V update(V v);
 
-    void delete(T t);
+    void delete(V v);
 }

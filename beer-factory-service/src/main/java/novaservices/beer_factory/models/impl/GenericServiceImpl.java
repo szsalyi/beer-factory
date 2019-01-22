@@ -1,43 +1,51 @@
 package novaservices.beer_factory.models.impl;
 
 import novaservices.beer_factory.dao.GenericDao;
-import novaservices.beer_factory.dao.Impl.GenericDaoImpl;
-import novaservices.beer_factory.models.mappers.BrewMapper;
+import novaservices.beer_factory.entities.BaseEntity;
+import novaservices.beer_factory.models.mappers.GenericMapper;
 import novaservices.beer_factory.service.GenericService;
 
 import javax.inject.Inject;
 import java.util.List;
+import java.util.stream.Collectors;
 
-public class GenericServiceImpl<T, D extends GenericDao> implements GenericService<T> {
+public abstract class GenericServiceImpl<E extends BaseEntity, V, D extends GenericDao<E>, M extends GenericMapper<E, V>>
+        implements GenericService<V> {
 
     @Inject
     private D d;
 
     @Inject
-    private BrewMapper brewMapper;
+    private M m;
 
     @Override
-    public T create(T t) {
-        return null;
+    public V create(V v) {
+        E entity = (E) d.create(m.toEntity(v));
+        return m.toVo(entity);
     }
 
     @Override
-    public T read(T t) {
-        return null;
+    public V read(V v) {
+        E entity = (E) d.read(m.toEntity(v));
+        return m.toVo(entity);
     }
 
     @Override
-    public List<T> readAll(T t) {
-        return null;
+    public List<V> readAll(V v) {
+        return (List<V>) d.readAll(m.toEntity(v))
+                .stream()
+                .map(e -> m.toVo((E) e))
+                .collect(Collectors.toList());
     }
 
     @Override
-    public T update(T t) {
-        return null;
+    public V update(V v) {
+        E entity = (E) d.update(m.toEntity(v));
+        return m.toVo(entity);
     }
 
     @Override
-    public void delete(T t) {
-
+    public void delete(V v) {
+        d.delete(m.toEntity(v));
     }
 }

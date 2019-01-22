@@ -7,7 +7,7 @@ import novaservices.beer_factory.vos.BrewVO;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2019-01-22T14:04:40+0100",
+    date = "2019-01-22T16:03:48+0100",
     comments = "version: 1.2.0.Final, compiler: javac, environment: Java 1.8.0_191 (Oracle Corporation)"
 )
 @ApplicationScoped
@@ -31,16 +31,16 @@ public class BrewMapperImpl implements BrewMapper {
     }
 
     @Override
-    public BrewEntity toEntity(BrewVO employee) {
-        if ( employee == null ) {
+    public BrewEntity toEntity(BrewVO vo) {
+        if ( vo == null ) {
             return null;
         }
 
         BrewEntity brewEntity = new BrewEntity();
 
-        brewEntity.setPlannedDate( employee.getPlannedDate() );
-        brewEntity.setProducedBeers( (long) employee.getProducedBeers() );
-        brewEntity.id = employee.getId();
+        brewEntity.setPlannedDate( vo.getPlannedDate() );
+        brewEntity.setProducedBeers( (long) vo.getProducedBeers() );
+        brewEntity.id = vo.getId();
 
         return brewEntity;
     }
