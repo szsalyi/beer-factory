@@ -1,4 +1,6 @@
 package novaservices.beer_factory.service;
 
-public interface MaterialService {
+import novaservices.beer_factory.vos.MaterialVO;
+
+public interface MaterialService extends GenericService<MaterialVO> {
 }
