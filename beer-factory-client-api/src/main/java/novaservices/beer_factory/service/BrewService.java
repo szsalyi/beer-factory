@@ -1,5 +1,7 @@
 package novaservices.beer_factory.service;
 
-public interface BrewService {
+import novaservices.beer_factory.vos.BrewVO;
 
+public interface BrewService {
+    public BrewVO create(BrewVO brewVO);
 }

@@ -21,7 +21,7 @@ public abstract class GenericDaoImpl<T extends BaseEntity> implements GenericDao
             entityManager.persist(t);
         } catch (HibernateException ignored) {
             return null; /*TODO(SSALYI) : Wrap return object to a Result so no exception is thrown towards.
-                         The result object with the error will move thorough layers*/
+                         The result object with the error will move through layers*/
         }
         return t;
     }

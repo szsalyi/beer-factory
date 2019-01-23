@@ -1,4 +1,4 @@
-package novaservices.beer_factory.models.mappers;
+package novaservices.beer_factory.mappers;
 
 import novaservices.beer_factory.entities.MaterialEntity;
 import novaservices.beer_factory.vos.MaterialVO;
