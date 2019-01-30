@@ -13,22 +13,22 @@ import javax.jws.WebService;
 @WebService(serviceName = "recipeController")
 public class RecipeController {
 
-    @WebMethod(operationName = "createRecipe")
-    public CreateRecipeResponse createRecipe(CreateRecipeRequest request) {
+    @WebMethod(operationName = "create")
+    public CreateRecipeResponse create(CreateRecipeRequest request) {
         CreateRecipeResponse response = new CreateRecipeResponse();
 
         return response;
     }
 
-    @WebMethod(operationName = "deleteRecipe")
-    public DeleteRecipeResponse deleteRecipe(DeleteRecipeRequest request) {
+    @WebMethod(operationName = "delete")
+    public DeleteRecipeResponse delete(DeleteRecipeRequest request) {
         DeleteRecipeResponse response = new DeleteRecipeResponse();
 
         return response;
     }
 
-    @WebMethod(operationName = "getRecipe")
-    public GetRecipeResponse getRecipe(GetRecipeRequest request) {
+    @WebMethod(operationName = "get")
+    public GetRecipeResponse get(GetRecipeRequest request) {
         GetRecipeResponse response = new GetRecipeResponse();
 
         return response;

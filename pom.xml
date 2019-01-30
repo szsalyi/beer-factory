@@ -11,55 +11,83 @@
         <module>beer-factory-persistence</module>
         <module>beer-factory-service</module>
         <module>beer-factory-web</module>
-        <module>beer-factory-client-api</module>
         <module>beer-factory-ear</module>
     </modules>
+
     <packaging>pom</packaging>
 
     <properties>
         <jdk.version>1.8</jdk.version>
         <javaee.version>7.0</javaee.version>
+        <ejb.version>3.2</ejb.version>
+        <maven.ejb.plugin.version>3.0.1</maven.ejb.plugin.version>
         <javax.persistence-api.version>2.2</javax.persistence-api.version>
         <org.mapstruct.version>1.2.0.Final</org.mapstruct.version>
         <lombok.version>1.18.4</lombok.version>
         <mocikto-core.version>2.23.4</mocikto-core.version>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <checkstyle.version>3.0.0</checkstyle.version>
         <javadoc.version>3.0.1</javadoc.version>
         <maven.compiler.plugin>3.8.0</maven.compiler.plugin>
+        <version.maven.ear.plugin>2.10.1</version.maven.ear.plugin>
         <project.build.directory>D:\IDEA_Projects\Company\target</project.build.directory>
         <project.build.ear.finalName>company</project.build.ear.finalName>
-        <env>1.0-SNAPSHOT</env>
+        <env>1.0.0</env>
         <weblogic.target>Face</weblogic.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>${javaee.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>novaservices</groupId>
+                <artifactId>beer-factory-persistence</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>ejb</type>
+            </dependency>
+            <dependency>
+                <groupId>novaservices</groupId>
+                <artifactId>beer-factory-service</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>ejb</type>
+            </dependency>
+            <dependency>
+                <groupId>novaservices</groupId>
+                <artifactId>beer-factory-web</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>war</type>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <optional>true</optional>
+            </dependency>
+            <dependency>
+                <groupId>javax</groupId>
+                <artifactId>javaee-api</artifactId>
+                <version>${javaee.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.7.25</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>1.7.25</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 
     <build>
         <pluginManagement>
             <plugins>
-               <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-javadoc-plugin</artifactId>
-                    <version>${javadoc.version}</version>
-                    <configuration>
-                        <show>private</show>
-                        <nohelp>true</nohelp>
-                    </configuration>
-                </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
@@ -67,6 +95,23 @@
                     <configuration>
                         <source>${maven.compiler.source}</source>
                         <target>${maven.compiler.target}</target>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-ejb-plugin</artifactId>
+                    <version>${maven.ejb.plugin.version}</version>
+                    <configuration>
+                        <ejbVersion>${ejb.version}</ejbVersion>
+                        <archive>
+                            <manifest>
+                                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                                <addClasspath>true</addClasspath>
+                                <classpathPrefix>APP-INF/lib/</classpathPrefix>
+                                <useUniqueVersions>false</useUniqueVersions>
+                            </manifest>
+                        </archive>
                     </configuration>
                 </plugin>
                 <plugin>
@@ -82,6 +127,7 @@
                                 <encoding>UTF-8</encoding>
                                 <consoleOutput>true</consoleOutput>
                                 <failsOnError>true</failsOnError>
+                                <failsOnError>false</failsOnError>
                             </configuration>
                             <goals>
                                 <goal>check</goal>
@@ -93,21 +139,4 @@
         </pluginManagement>
     </build>
 
-    <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>${checkstyle.version}</version>
-                <configuration>
-                    <configLocation>checkstyle.xml</configLocation>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>${javadoc.version}</version>
-            </plugin>
-        </plugins>
-    </reporting>
 </project>

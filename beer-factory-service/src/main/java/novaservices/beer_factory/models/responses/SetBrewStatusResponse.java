@@ -5,5 +5,5 @@ import novaservices.beer_factory.vos.BrewVO;
 
 @Data
 public class SetBrewStatusResponse {
-    private BrewVO brew;
+    private BrewVO createdBrew;
 }

@@ -11,5 +11,5 @@ import novaservices.beer_factory.vos.MaterialVO;
 @Data
 public class StoreMaterialRequest {
     private MaterialVO material;
-    private int quantity;
+    private Long quantity;
 }

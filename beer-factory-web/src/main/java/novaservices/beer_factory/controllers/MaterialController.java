@@ -13,8 +13,15 @@ public class MaterialController {
     @Inject
     private MaterialService materialService;
 
-    @WebMethod(operationName = "createMaterial")
-    public MaterialVO createMaterial(MaterialVO materialVO) {
+    @WebMethod(operationName = "create")
+    public MaterialVO create(MaterialVO materialVO) {
         return materialService.create(materialVO);
+
     }
+
+    @WebMethod(operationName = "read")
+    public MaterialVO read(Long id) {
+        return materialService.get(id);
+    }
+
 }

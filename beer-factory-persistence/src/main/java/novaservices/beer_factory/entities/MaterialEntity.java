@@ -5,10 +5,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.ManyToMany;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Set;
 
 @EqualsAndHashCode(callSuper = true)
@@ -22,9 +19,9 @@ public class MaterialEntity extends BaseEntity {
 
     private int price;
 
-    @OneToMany(mappedBy = "material")
-    private Set<MaterialStatusEntity> materialStatuses;
+    /*@OneToOne(mappedBy = "material")
+    private MaterialStatusEntity materialStatus;*/
 
-    @ManyToMany(mappedBy = "materials")
-    private Set<RecipeEntity> recipes;
+   /* @OneToMany(mappedBy = "material")
+    private Set<RecipeMaterialEntity> recipeMaterial;*/
 }

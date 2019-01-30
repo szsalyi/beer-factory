@@ -1,9 +1,5 @@
 package novaservices.beer_factory.entities;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
 
 @SequenceGenerator(name = BaseEntity.SEQUENCE_NAME, allocationSize = 1)
@@ -12,6 +8,14 @@ public class BaseEntity {
     static final String SEQUENCE_NAME = "SEQ_BEER";
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO, generator = "BEER")
-    public Long id;
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = SEQUENCE_NAME)
+    private Long id;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }

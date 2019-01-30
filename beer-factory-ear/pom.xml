@@ -20,14 +20,17 @@
     <dependencies>
         <dependency>
             <groupId>novaservices</groupId>
+            <artifactId>beer-factory-persistence</artifactId>
+            <type>ejb</type>
+        </dependency>
+        <dependency>
+            <groupId>novaservices</groupId>
             <artifactId>beer-factory-service</artifactId>
-            <version>1.0-SNAPSHOT</version>
             <type>ejb</type>
         </dependency>
         <dependency>
             <groupId>novaservices</groupId>
             <artifactId>beer-factory-web</artifactId>
-            <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
     </dependencies>
@@ -41,8 +44,14 @@
                 <configuration>
                     <version>7</version>
                     <defaultLibBundleDir>lib</defaultLibBundleDir>
+                    <defaultLibBundleDir>APP-INF/lib</defaultLibBundleDir>
                     <applicationName>Beer-Factory</applicationName>
+                    <earSourceDirectory>target/classes</earSourceDirectory>
                     <modules>
+                        <ejbModule>
+                            <groupId>novaservices</groupId>
+                            <artifactId>beer-factory-persistence</artifactId>
+                        </ejbModule>
                         <ejbModule>
                             <groupId>novaservices</groupId>
                             <artifactId>beer-factory-service</artifactId>

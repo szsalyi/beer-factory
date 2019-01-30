@@ -15,15 +15,16 @@ public class BrewController {
 
     @Inject
     private BrewService brewService;
-    @WebMethod(operationName = "planBrew")
-    public PlanBrewResponse planBrew(PlanBrewRequest request) {
+
+    @WebMethod(operationName = "plan")
+    public PlanBrewResponse plan(PlanBrewRequest request) {
         PlanBrewResponse response = new PlanBrewResponse();
 
         return response;
     }
 
-    @WebMethod(operationName = "setBrewStatus")
-    public SetBrewStatusResponse setBrewStatus(SetBrewStatusRequest request) {
+    @WebMethod(operationName = "setStatus")
+    public SetBrewStatusResponse setStatus(SetBrewStatusRequest request) {
         SetBrewStatusResponse response = new SetBrewStatusResponse();
 
         return  response;

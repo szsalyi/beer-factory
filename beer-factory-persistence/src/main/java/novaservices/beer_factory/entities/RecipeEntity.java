@@ -17,15 +17,10 @@ import java.util.Set;
 public class RecipeEntity extends BaseEntity {
     private String name;
 
-    @OneToMany(mappedBy = "recipe")
-    private Set<BrewEntity> brews;
+   /* @OneToMany(mappedBy = "recipe")
+    private Set<BrewEntity> brews;*/
 
-    @ManyToMany(cascade = {
-            CascadeType.MERGE,
-            CascadeType.PERSIST
-    })
-    @JoinTable(name = "RECIPE_MATERIAL",
-            joinColumns = @JoinColumn(name = "RECIPE_ID"),
-            inverseJoinColumns = @JoinColumn(name = "MATERIAL_ID"))
-    private Set<MaterialEntity> materials;
+    @OneToMany
+    @JoinColumn(name = "RECIPE_ID")
+    private Set<RecipeMaterialEntity> recipeMaterial;
 }

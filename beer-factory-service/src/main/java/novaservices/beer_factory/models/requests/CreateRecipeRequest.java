@@ -10,7 +10,6 @@ import novaservices.beer_factory.vos.RecipeVO;
  */
 //
 @Data
-@SuppressWarnings("checkstyle:HideUtilityClassConstructor")
 public class CreateRecipeRequest {
     private RecipeVO recipe;
 }

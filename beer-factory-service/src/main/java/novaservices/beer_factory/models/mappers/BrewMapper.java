@@ -5,5 +5,8 @@ import novaservices.beer_factory.vos.BrewVO;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "cdi")
-public interface BrewMapper extends GenericMapper<BrewEntity, BrewVO> {
+public interface BrewMapper {
+    BrewEntity toEntity(BrewVO materialVO);
+
+    BrewVO toVo(BrewEntity entity);
 }

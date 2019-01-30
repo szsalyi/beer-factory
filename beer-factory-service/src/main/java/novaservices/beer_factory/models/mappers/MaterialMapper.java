@@ -5,5 +5,8 @@ import novaservices.beer_factory.vos.MaterialVO;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "cdi")
-public interface MaterialMapper extends GenericMapper<MaterialEntity, MaterialVO> {
+public interface MaterialMapper {
+    MaterialEntity toEntity(MaterialVO materialVO);
+
+    MaterialVO toVo(MaterialEntity entity);
 }

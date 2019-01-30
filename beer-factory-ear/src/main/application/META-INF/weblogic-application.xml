@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-application xmlns="http://xmlns.oracle.com/weblogic/weblogic-application/1.6/weblogic-application.xsd">
+
+    <prefer-application-packages>
+        <package-name>com.google.*</package-name>
+        <package-name>org.apache.*</package-name>
+        <package-name>org.hibernate.*</package-name>
+        <package-name>org.jboss.logging.*</package-name>
+    </prefer-application-packages>
+
+</weblogic-application>
