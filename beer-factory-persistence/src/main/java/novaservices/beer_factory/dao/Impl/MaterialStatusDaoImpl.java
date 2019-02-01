@@ -57,7 +57,15 @@ public class MaterialStatusDaoImpl implements MaterialStatusDao {
     }
 
     @Override
-    public MaterialStatusEntity increaseMaterialQuantity(Long id, Long quantity) {
-        return null;
+    public boolean reserveMaterialQuantity(Long materialId, Long quantity) {
+        MaterialStatusEntity entity = this.readByMaterialId(materialId);
+        if(entity.getAvailable() < quantity) {
+            return false;
+        } else {
+            entity.setReserved(quantity);
+            entity.setAvailable(entity.getAvailable() - quantity);
+        }
+
+        return true;
     }
 }

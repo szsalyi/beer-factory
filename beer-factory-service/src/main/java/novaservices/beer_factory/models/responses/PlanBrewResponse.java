@@ -9,7 +9,7 @@ import java.util.Date;
 @Data
 public class PlanBrewResponse {
     private Long brewId;
-    private RecipeVO recipeVO;
+    private Long recipeId;
     private Date plannedDate;
     private int producedBeers;
     private BrewStatus status;

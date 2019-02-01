@@ -17,5 +17,5 @@ public interface MaterialStatusDao {
 
     MaterialStatusEntity readByMaterialId(Long id);
 
-    MaterialStatusEntity increaseMaterialQuantity(Long id, Long quantity);
+    boolean reserveMaterialQuantity(Long materialId, Long quantity);
 }

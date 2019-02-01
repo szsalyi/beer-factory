@@ -25,9 +25,7 @@ public class StoreController {
     @WebMethod(operationName = "store")
     public StoreMaterialResponse store(StoreMaterialRequest request) {
         StoreMaterialResponse response = new StoreMaterialResponse();
-        MaterialStatusVO statusVO = new MaterialStatusVO();
-
-        statusVO = statusService.create(request.getMaterial(), request.getQuantity());
+        MaterialStatusVO statusVO =  statusService.create(request.getMaterial(), request.getQuantity());
 
         response.setStoredMaterialStatusId(statusVO.getId());
         response.setStoredMaterialId(statusVO.getMaterialId());

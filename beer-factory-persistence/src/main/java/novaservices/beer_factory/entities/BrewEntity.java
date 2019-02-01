@@ -15,7 +15,13 @@ import java.time.LocalDateTime;
 @Data
 @Entity
 @Table(name = "BREW")
+@NamedQuery(
+        name = BrewEntity.FIND_ALL,
+        query = "SELECT b " +
+                "FROM BrewEntity b")
 public class BrewEntity extends BaseEntity {
+    public static final String FIND_ALL = "BrewEntity.findAll";
+
     private LocalDateTime plannedDate;
 
     private Long producedBeers;

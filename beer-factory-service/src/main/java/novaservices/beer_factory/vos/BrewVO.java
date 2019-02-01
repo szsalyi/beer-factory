@@ -10,6 +10,6 @@ public class BrewVO {
     private Long id;
     private Long recipeId;
     private Date plannedDate;
-    private int producedBeers;
-    private BrewStatus isSuccess;
+    //private int producedBeers;
+    //private BrewStatus isSuccess;
 }

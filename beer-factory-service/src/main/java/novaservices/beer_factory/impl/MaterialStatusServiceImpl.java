@@ -9,7 +9,6 @@ import novaservices.beer_factory.vos.MaterialStatusVO;
 import novaservices.beer_factory.vos.MaterialVO;
 
 import javax.inject.Inject;
-import java.util.ArrayList;
 import java.util.List;
 
 public class MaterialStatusServiceImpl implements MaterialStatusService {
@@ -31,20 +30,19 @@ public class MaterialStatusServiceImpl implements MaterialStatusService {
 
     @Override
     public MaterialStatusVO create(MaterialVO requestMaterial, Long quantity) {
-        MaterialStatusVO materialStatusVO = new MaterialStatusVO();
-        MaterialStatusEntity materialStatusEntity;
         MaterialStatusEntity returnStatusEntity;
         MaterialVO materialVO = materialService.get(requestMaterial.getId());
 
         if (materialVO == null) {
+            MaterialStatusVO materialStatusVO = new MaterialStatusVO();
             materialVO = materialService.update(requestMaterial);
             materialStatusVO.setMaterialId(materialVO.getId());
             materialStatusVO.setAvailable(quantity);
             materialStatusVO.setReserved(0L);
             returnStatusEntity = materialStatusDao.create(mapper.toEntity(materialStatusVO));
         } else {
-            materialStatusEntity = materialStatusDao.readByMaterialId(materialVO.getId());
-            materialStatusEntity.setAvailable( materialStatusEntity.getAvailable() + quantity);
+            MaterialStatusEntity materialStatusEntity = materialStatusDao.readByMaterialId(materialVO.getId());
+            materialStatusEntity.setAvailable(materialStatusEntity.getAvailable() + quantity);
             returnStatusEntity = materialStatusDao.update(materialStatusEntity);
         }
 
