@@ -12,5 +12,5 @@ public interface MaterialStatusService {
 
     void delete(MaterialStatusVO statusVO);
 
-    List<MaterialStatusVO> getStoreStatus();
+    List<MaterialStatusVO> getStoreStatus(boolean onlyAvailable);
 }

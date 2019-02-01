@@ -4,3 +4,4 @@
 SoapUI/*
 *.ipr
 *.iws
+checkstyle.xml

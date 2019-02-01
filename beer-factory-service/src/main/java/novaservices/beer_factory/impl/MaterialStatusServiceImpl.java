@@ -9,6 +9,7 @@ import novaservices.beer_factory.vos.MaterialStatusVO;
 import novaservices.beer_factory.vos.MaterialVO;
 
 import javax.inject.Inject;
+import java.util.ArrayList;
 import java.util.List;
 
 public class MaterialStatusServiceImpl implements MaterialStatusService {
@@ -31,8 +32,8 @@ public class MaterialStatusServiceImpl implements MaterialStatusService {
     @Override
     public MaterialStatusVO create(MaterialVO requestMaterial, Long quantity) {
         MaterialStatusVO materialStatusVO = new MaterialStatusVO();
-        MaterialStatusEntity materialStatusEntity = new MaterialStatusEntity();
-        MaterialStatusEntity returnStatusEntity = new MaterialStatusEntity();
+        MaterialStatusEntity materialStatusEntity;
+        MaterialStatusEntity returnStatusEntity;
         MaterialVO materialVO = materialService.get(requestMaterial.getId());
 
         if (materialVO == null) {
@@ -44,10 +45,6 @@ public class MaterialStatusServiceImpl implements MaterialStatusService {
         } else {
             materialStatusEntity = materialStatusDao.readByMaterialId(materialVO.getId());
             materialStatusEntity.setAvailable( materialStatusEntity.getAvailable() + quantity);
-            /*materialStatusVO.setMaterialId(materialVO.getId());
-            materialStatusVO.setName(materialStatusEntity.getMaterial().getName());
-            materialStatusVO.setReserved(materialStatusEntity.getReserved());
-            materialStatusVO.setAvailable( materialStatusEntity.getAvailable() + quantity);*/
             returnStatusEntity = materialStatusDao.update(materialStatusEntity);
         }
 
@@ -61,7 +58,9 @@ public class MaterialStatusServiceImpl implements MaterialStatusService {
     }
 
     @Override
-    public List<MaterialStatusVO> getStoreStatus() {
-        return null;
+    public List<MaterialStatusVO> getStoreStatus(boolean onlyAvailable) {
+        List<MaterialStatusEntity> statusEntityVOList = materialStatusDao.readAll(onlyAvailable);
+
+        return mapper.toVoList(statusEntityVOList);
     }
 }

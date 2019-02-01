@@ -1,20 +1,20 @@
 package novaservices.beer_factory.entities;
 
+import javax.persistence.Column;
 import javax.persistence.Embeddable;
 import java.io.Serializable;
 import java.util.Objects;
 
 @Embeddable
 public class RecipeMaterialPK implements Serializable {
-    //@Column(name = "RECIPE_ID")
+    @Column(name = "RECIPE_ID")
     private Long recipeId;
 
-    //@Column(name = "MATERIAL_ID")
+    @Column(name = "MATERIAL_ID")
     private Long materialId;
 
-    public RecipeMaterialPK(Long recipeId, Long materialId) {
+    public RecipeMaterialPK(Long recipeId) {
         this.recipeId = recipeId;
-        this.materialId = materialId;
     }
 
     public RecipeMaterialPK() {
@@ -38,12 +38,11 @@ public class RecipeMaterialPK implements Serializable {
 
     @Override
     public boolean equals(Object o) {
-        if (o instanceof RecipeMaterialPK) {
-            RecipeMaterialPK pk = (RecipeMaterialPK) o;
-            return Objects.equals(recipeId, pk.recipeId) && Objects.equals(materialId, pk.materialId);
-        } else {
-            return false;
-        }
+        if (this == o) return true;
+        if (!(o instanceof RecipeMaterialPK)) return false;
+        RecipeMaterialPK pk = (RecipeMaterialPK) o;
+
+        return Objects.equals(recipeId, pk.recipeId) && Objects.equals(materialId, pk.materialId);
     }
 
     @Override

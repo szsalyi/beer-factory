@@ -12,6 +12,7 @@ import novaservices.beer_factory.vos.MaterialStatusVO;
 import javax.inject.Inject;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
+import java.util.List;
 
 
 @WebService(serviceName = "storeController")
@@ -20,8 +21,6 @@ public class StoreController {
     @Inject
     private MaterialStatusService statusService;
 
-    @Inject
-    private MaterialService materialService;
 
     @WebMethod(operationName = "store")
     public StoreMaterialResponse store(StoreMaterialRequest request) {
@@ -41,9 +40,11 @@ public class StoreController {
 
     @WebMethod(operationName = "getSoreStatus")
     public StoreStatusResponse getStatus(StoreStatusRequest request) {
-        boolean onlyAvailable = request.isOnlyAvailable();
-
         StoreStatusResponse response = new StoreStatusResponse();
+
+        List<MaterialStatusVO> statusVOList = statusService.getStoreStatus(request.isOnlyAvailable());
+        response.setMaterials(statusVOList);
+
         return response;
     }
 }

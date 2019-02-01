@@ -9,7 +9,7 @@ public interface MaterialStatusDao {
 
     MaterialStatusEntity read(Long id);
 
-    List<MaterialStatusEntity> readAll(MaterialStatusEntity entity);
+    List<MaterialStatusEntity> readAll(boolean onlyAvailable);
 
     MaterialStatusEntity update(MaterialStatusEntity entity);
 

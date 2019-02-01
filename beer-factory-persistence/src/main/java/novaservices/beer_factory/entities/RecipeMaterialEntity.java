@@ -20,14 +20,16 @@ public class RecipeMaterialEntity {
     private Long requiredQuantity;
 
     //@MapsId(value = "RECIPE_ID")
-   /* @ManyToOne
-    @JoinColumn(name = "RECIPE_ID")
+/*
+    @ManyToOne
+    @JoinColumn(name = "RECIPE_ID", insertable = false, updatable = false)
     private RecipeEntity recipe;
 */
 
+
     //@MapsId(value = "MATERIAL_ID")
     @ManyToOne
-    @JoinColumn(name = "MATERIAL_ID")
+    @JoinColumn(name = "MATERIAL_ID", insertable = false, updatable = false)
     private MaterialEntity material;
 
     public Long getMaterialId() {

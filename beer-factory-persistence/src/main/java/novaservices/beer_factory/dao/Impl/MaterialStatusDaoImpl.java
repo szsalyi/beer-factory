@@ -29,8 +29,13 @@ public class MaterialStatusDaoImpl implements MaterialStatusDao {
     }
 
     @Override
-    public List<MaterialStatusEntity> readAll(MaterialStatusEntity entity) {
-        return null;
+    public List<MaterialStatusEntity> readAll(boolean onlyAvailable) {
+        TypedQuery<MaterialStatusEntity> query =
+                onlyAvailable ?
+                        entityManager.createNamedQuery(MaterialStatusEntity.FIND_ALL_AVAILABLE, MaterialStatusEntity.class) :
+                        entityManager.createNamedQuery(MaterialStatusEntity.FIND_ALL, MaterialStatusEntity.class);
+
+        return query.getResultList();
     }
 
     @Override
@@ -53,6 +58,6 @@ public class MaterialStatusDaoImpl implements MaterialStatusDao {
 
     @Override
     public MaterialStatusEntity increaseMaterialQuantity(Long id, Long quantity) {
-      return null;
+        return null;
     }
 }

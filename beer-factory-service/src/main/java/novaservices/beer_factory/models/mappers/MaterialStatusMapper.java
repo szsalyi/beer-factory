@@ -8,6 +8,8 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 
+import java.util.List;
+
 @Mapper(componentModel = "cdi")
 public interface MaterialStatusMapper {
     @Mappings({
@@ -18,6 +20,10 @@ public interface MaterialStatusMapper {
 
     @InheritInverseConfiguration
     MaterialStatusEntity toEntity(MaterialStatusVO materialVO);
+
+    List<MaterialStatusVO> toVoList(List<MaterialStatusEntity> materialStatusEntities);
+
+    List<MaterialStatusEntity> toEntityList(List<MaterialStatusVO> materialStatusVos);
 
     default Long fromEntity(MaterialEntity entity) {
         return entity.getId();

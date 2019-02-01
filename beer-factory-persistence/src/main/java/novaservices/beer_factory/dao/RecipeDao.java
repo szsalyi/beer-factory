@@ -7,11 +7,13 @@ import java.util.List;
 public interface RecipeDao {
     RecipeEntity create(RecipeEntity entity);
 
-    RecipeEntity read(Long id);
+    RecipeEntity createRecipeBase(RecipeEntity entity);
 
-    List<RecipeEntity> readAll(RecipeEntity entity);
+    RecipeEntity read(Long id);
 
     RecipeEntity update(RecipeEntity entity);
 
-    void delete(RecipeEntity entity);
+    void delete(Long id);
+
+    List<RecipeEntity> readAll();
 }

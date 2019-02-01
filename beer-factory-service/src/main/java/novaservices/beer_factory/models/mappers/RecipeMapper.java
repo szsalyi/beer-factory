@@ -8,19 +8,25 @@ import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
+import java.util.List;
+
 @Mapper(componentModel = "cdi")
 public interface RecipeMapper {
-    @Mapping(target = "recipeMaterialIds", source = "recipeMaterial")
+    @Mapping(target = "recipeMaterials", source = "recipeMaterial")
     RecipeVO toVo(RecipeEntity entity);
 
     @InheritInverseConfiguration
     RecipeEntity toEntity(RecipeVO materialVO);
 
-    default RecipeMaterialPK fromEntity(RecipeMaterialEntity entity) {
+    List<RecipeVO> toVoList(List<RecipeEntity> recipeEntities);
+
+    List<RecipeEntity> toEntityList(List<RecipeVO> recipeVOS);
+
+   /* default RecipeMaterialPK fromEntity(RecipeMaterialEntity entity) {
         RecipeMaterialPK pk = new RecipeMaterialPK();
         pk.setMaterialId(entity.getMaterialId());
-        pk.setRecipeId(entity.getRecipeId());
+        pk.setRecipe(entity.getRecipe());
 
         return pk;
-    }
+    }*/
 }

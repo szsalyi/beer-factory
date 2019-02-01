@@ -27,7 +27,8 @@ public class MaterialDaoImpl implements MaterialDao {
 
     @Override
     public MaterialEntity update(MaterialEntity entity) {
-        return entityManager.merge(entity);
+        MaterialEntity merge = entityManager.merge(entity);
+        return merge;
     }
 
     @Override

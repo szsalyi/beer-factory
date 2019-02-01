@@ -9,7 +9,7 @@ public class BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = SEQUENCE_NAME)
-    private Long id;
+    protected Long id;
 
     public Long getId() {
         return id;

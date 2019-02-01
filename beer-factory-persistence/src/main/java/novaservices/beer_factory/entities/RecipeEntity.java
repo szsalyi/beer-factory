@@ -14,13 +14,23 @@ import java.util.Set;
 @Data
 @Entity
 @Table(name = "RECIPE")
+@NamedQuery(
+        name = RecipeEntity.FIND_ALL,
+        query = "SELECT r " +
+                "FROM RecipeEntity r"
+)
 public class RecipeEntity extends BaseEntity {
-    private String name;
+    public static final String FIND_ALL = "RecipeEntity.findAll";
+
+    @Column(name = "RECIPE_NAME")
+    private String recipeName;
 
    /* @OneToMany(mappedBy = "recipe")
     private Set<BrewEntity> brews;*/
+   @OneToMany
+   @JoinColumns({
+           @JoinColumn(name = "RECIPE_ID")
+   })
+   private Set<RecipeMaterialEntity> recipeMaterial;
 
-    @OneToMany
-    @JoinColumn(name = "RECIPE_ID")
-    private Set<RecipeMaterialEntity> recipeMaterial;
 }
